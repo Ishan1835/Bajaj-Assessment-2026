@@ -1,0 +1,59 @@
+=== Quiz Leaderboard Solver ===
+Registration Number : RA2311026010130
+Total polls         : 10
+Delay between polls : 5000ms
+
+[Poll 1/10] Fetching (poll=0)...
+  Raw response: {"regNo":"RA2311026010130","pollIndex":0,"totalPolls":21,"events":[{"roundId":"R1","participant":"Diana","score":200},{"roundId":"R1","participant":"Ethan","score":155}],"meta":{"hint":"Rounds and scores may repeat across polls. Handle them correctly.","totalPollsRequired":10}}
+  ✓ Processed 2 new event(s), skipped 0 duplicate(s)
+[Poll 2/10] Fetching (poll=1)...
+  Raw response: {"regNo":"RA2311026010130","pollIndex":1,"totalPolls":22,"events":[{"roundId":"R1","participant":"Fiona","score":180}],"meta":{"hint":"Rounds and scores may repeat across polls. Handle them correctly.","totalPollsRequired":10}}
+  ✓ Processed 1 new event(s), skipped 0 duplicate(s)
+[Poll 3/10] Fetching (poll=2)...
+  Raw response: {"regNo":"RA2311026010130","pollIndex":2,"totalPolls":23,"events":[{"roundId":"R2","participant":"Diana","score":95},{"roundId":"R2","participant":"Ethan","score":210}],"meta":{"hint":"Rounds and scores may repeat across polls. Handle them correctly.","totalPollsRequired":10}}
+  ✓ Processed 2 new event(s), skipped 0 duplicate(s)
+[Poll 4/10] Fetching (poll=3)...
+  Raw response: {"regNo":"RA2311026010130","pollIndex":3,"totalPolls":24,"events":[{"roundId":"R2","participant":"Diana","score":95}],"meta":{"hint":"Rounds and scores may repeat across polls. Handle them correctly.","totalPollsRequired":10}}
+  ✓ Processed 0 new event(s), skipped 1 duplicate(s)
+[Poll 5/10] Fetching (poll=4)...
+  Raw response: {"regNo":"RA2311026010130","pollIndex":4,"totalPolls":25,"events":[{"roundId":"R3","participant":"Fiona","score":140},{"roundId":"R3","participant":"Diana","score":175}],"meta":{"hint":"Rounds and scores may repeat across polls. Handle them correctly.","totalPollsRequired":10}}
+  ✓ Processed 2 new event(s), skipped 0 duplicate(s)
+[Poll 6/10] Fetching (poll=5)...
+  Raw response: {"regNo":"RA2311026010130","pollIndex":5,"totalPolls":26,"events":[{"roundId":"R2","participant":"Fiona","score":120}],"meta":{"hint":"Rounds and scores may repeat across polls. Handle them correctly.","totalPollsRequired":10}}
+  ✓ Processed 1 new event(s), skipped 0 duplicate(s)
+[Poll 7/10] Fetching (poll=6)...
+  Raw response: {"regNo":"RA2311026010130","pollIndex":6,"totalPolls":27,"events":[{"roundId":"R3","participant":"Ethan","score":90},{"roundId":"R1","participant":"Diana","score":200}],"meta":{"hint":"Rounds and scores may repeat across polls. Handle them correctly.","totalPollsRequired":10}}
+  ✓ Processed 1 new event(s), skipped 1 duplicate(s)
+[Poll 8/10] Fetching (poll=7)...
+  Raw response: {"regNo":"RA2311026010130","pollIndex":7,"totalPolls":28,"events":[{"roundId":"R3","participant":"Fiona","score":140}],"meta":{"hint":"Rounds and scores may repeat across polls. Handle them correctly.","totalPollsRequired":10}}
+  ✓ Processed 0 new event(s), skipped 1 duplicate(s)
+[Poll 9/10] Fetching (poll=8)...
+  Raw response: {"regNo":"RA2311026010130","pollIndex":8,"totalPolls":29,"events":[{"roundId":"R2","participant":"Ethan","score":210},{"roundId":"R3","participant":"Diana","score":175}],"meta":{"hint":"Rounds and scores may repeat across polls. Handle them correctly.","totalPollsRequired":10}}
+  ✓ Processed 0 new event(s), skipped 2 duplicate(s)
+[Poll 10/10] Fetching (poll=9)...
+  Raw response: {"regNo":"RA2311026010130","pollIndex":9,"totalPolls":30,"events":[{"roundId":"R1","participant":"Fiona","score":180}],"meta":{"hint":"Rounds and scores may repeat across polls. Handle them correctly.","totalPollsRequired":10}}
+  ✓ Processed 0 new event(s), skipped 1 duplicate(s)
+
+── Final Leaderboard ──────────────────────
+Rank  Participant          Total Score
+-------------------------------------------
+1     Diana                470
+2     Ethan                455
+3     Fiona                440
+-------------------------------------------
+Grand Total Score : 1365
+setId captured    : (not returned by API)
+
+Submitting leaderboard...
+Payload        : {"regNo":"RA2311026010130","leaderboard":[{"participant":"Diana","totalScore":470},{"participant":"Ethan","totalScore":455},{"participant":"Fiona","totalScore":440}]}
+Submitted total: 1365
+
+── Submission Response ────────────────────
+HTTP Status    : 200
+Raw body       : {"regNo":"RA2311026010130","totalPollsMade":30,"submittedTotal":1365,"attemptCount":3}
+Submitted Total: 1365
+Total Polls Made: 30
+Attempt Count  : 3
+-------------------------------------------
+
+✅ Submission accepted!
